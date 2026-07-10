@@ -1,0 +1,53 @@
+{
+  "common": {
+    "title": "MarktBit",
+    "description": "Panel Híbrido de Señales de Cripto y Acciones Globales",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "settings": "Configuración",
+    "dashboard": "Panel",
+    "signals": "Señales",
+    "performance": "Rendimiento",
+    "backtest": "Backtest",
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "refresh": "Actualizar"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Descubrimiento de Mercado",
+    "newListings": "Nuevos Listados",
+    "airdropTracker": "Rastreador de Airdrops",
+    "settings": "Configuración"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "signals": "Señales",
+    "performance": "Rendimiento",
+    "backtest": "Backtest",
+    "settings": "Configuración",
+    "logs": "Registros del Sistema"
+  },
+  "dashboard": {
+    "title": "Panel de MarktBit",
+    "engineStatus": "Estado del Motor",
+    "activeWorkers": "Workers Activos",
+    "systemLoad": "Carga del Sistema",
+    "apiStatus": "Estado de API de Exchange y Mercado",
+    "startScan": "Iniciar Escaneo",
+    "stopScan": "Detener Escaneo"
+  }
+}

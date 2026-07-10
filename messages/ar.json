@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "لوحة تحكم هجينة لإشارات العملات الرقمية والأسهم العالمية",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "settings": "الإعدادات",
+    "dashboard": "لوحة التحكم",
+    "signals": "إشارات",
+    "performance": "الأداء",
+    "backtest": "Backtest",
+    "search": "بحث",
+    "loading": "جار التحميل...",
+    "error": "Error",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "refresh": "تحديث"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "اكتشاف السوق",
+    "newListings": "إدراجات جديدة",
+    "airdropTracker": "متتبع الإيردروب",
+    "settings": "الإعدادات"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "signals": "إشارات",
+    "performance": "الأداء",
+    "backtest": "Backtest",
+    "settings": "الإعدادات",
+    "logs": "سجلات النظام"
+  },
+  "dashboard": {
+    "title": "لوحة تحكم MarktBit",
+    "engineStatus": "حالة المحرك",
+    "activeWorkers": "العمال النشطون",
+    "systemLoad": "حمل النظام",
+    "apiStatus": "حالة API للبورصة والسوق",
+    "startScan": "بدء المسح",
+    "stopScan": "إيقاف المسح"
+  }
+}

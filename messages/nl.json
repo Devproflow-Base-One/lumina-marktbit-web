@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "Hybride Crypto & Wereldwijde Aandeel Signaal Dashboard",
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "settings": "Instellingen",
+    "dashboard": "Dashboard",
+    "signals": "Signalen",
+    "performance": "Prestaties",
+    "backtest": "Backtest",
+    "search": "Zoeken",
+    "loading": "Laden...",
+    "error": "Error",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "close": "Sluiten",
+    "confirm": "Bevestigen",
+    "back": "Terug",
+    "next": "Volgende",
+    "refresh": "Vernieuwen"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Marktontdekking",
+    "newListings": "Nieuwe Noteringen",
+    "airdropTracker": "Airdrop Tracker",
+    "settings": "Instellingen"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "signals": "Signalen",
+    "performance": "Prestaties",
+    "backtest": "Backtest",
+    "settings": "Instellingen",
+    "logs": "Systeemlogboeken"
+  },
+  "dashboard": {
+    "title": "MarktBit Dashboard",
+    "engineStatus": "Motorstatus",
+    "activeWorkers": "Actieve Workers",
+    "systemLoad": "Systeembelasting",
+    "apiStatus": "Exchange & Markt API Status",
+    "startScan": "Scan Starten",
+    "stopScan": "Scan Stoppen"
+  }
+}

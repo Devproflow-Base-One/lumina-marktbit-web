@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "हाइब्रिड क्रिप्टो और वैश्विक स्टॉक सिग्नल डैशबोर्ड",
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "settings": "सेटिंग्स",
+    "dashboard": "डैशबोर्ड",
+    "signals": "सिग्नल",
+    "performance": "प्रदर्शन",
+    "backtest": "Backtest",
+    "search": "खोज",
+    "loading": "लोड हो रहा है...",
+    "error": "Error",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "close": "बंद करें",
+    "confirm": "पुष्टि करें",
+    "back": "वापस",
+    "next": "अगला",
+    "refresh": "ताज़ा करें"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "बाजार खोज",
+    "newListings": "नई सूचीबद्धता",
+    "airdropTracker": "एयरड्रॉप ट्रैकर",
+    "settings": "सेटिंग्स"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "signals": "सिग्नल",
+    "performance": "प्रदर्शन",
+    "backtest": "Backtest",
+    "settings": "सेटिंग्स",
+    "logs": "सिस्टम लॉग"
+  },
+  "dashboard": {
+    "title": "MarktBit डैशबोर्ड",
+    "engineStatus": "इंजन स्थिति",
+    "activeWorkers": "सक्रिय वर्कर्स",
+    "systemLoad": "सिस्टम लोड",
+    "apiStatus": "एक्सचेंज और बाजार API स्थिति",
+    "startScan": "स्कैन शुरू करें",
+    "stopScan": "स्कैन रोकें"
+  }
+}

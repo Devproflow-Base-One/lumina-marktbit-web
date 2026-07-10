@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "하이브리드 암호화폐 및 글로벌 주식 신호 대시보드",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "settings": "설정",
+    "dashboard": "대시보드",
+    "signals": "신호",
+    "performance": "성능",
+    "backtest": "Backtest",
+    "search": "검색",
+    "loading": "로딩 중...",
+    "error": "Error",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "close": "닫기",
+    "confirm": "확인",
+    "back": "뒤로",
+    "next": "다음",
+    "refresh": "새로고침"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "시장 발견",
+    "newListings": "신규 상장",
+    "airdropTracker": "에어드롭 트래커",
+    "settings": "설정"
+  },
+  "nav": {
+    "dashboard": "대시보드",
+    "signals": "신호",
+    "performance": "성능",
+    "backtest": "Backtest",
+    "settings": "설정",
+    "logs": "시스템 로그"
+  },
+  "dashboard": {
+    "title": "MarktBit 대시보드",
+    "engineStatus": "엔진 상태",
+    "activeWorkers": "활성 워커",
+    "systemLoad": "시스템 부하",
+    "apiStatus": "거래소 및 시장 API 상태",
+    "startScan": "스캔 시작",
+    "stopScan": "스캔 중지"
+  }
+}

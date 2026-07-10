@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "داشبورد ترکیبی سیگنال رمزارز و سهام جهانی",
+    "login": "ورود",
+    "logout": "خروج",
+    "settings": "تنظیمات",
+    "dashboard": "داشبورد",
+    "signals": "سیگنال‌ها",
+    "performance": "عملکرد",
+    "backtest": "Backtest",
+    "search": "جستجو",
+    "loading": "در حال بارگذاری...",
+    "error": "Error",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "delete": "حذف",
+    "edit": "ویرایش",
+    "close": "بستن",
+    "confirm": "تأیید",
+    "back": "بازگشت",
+    "next": "بعدی",
+    "refresh": "به‌روزرسانی"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "کشف بازار",
+    "newListings": "فهرست‌های جدید",
+    "airdropTracker": "رهگیر ایردراپ",
+    "settings": "تنظیمات"
+  },
+  "nav": {
+    "dashboard": "داشبورد",
+    "signals": "سیگنال‌ها",
+    "performance": "عملکرد",
+    "backtest": "Backtest",
+    "settings": "تنظیمات",
+    "logs": "گزارش‌های سیستم"
+  },
+  "dashboard": {
+    "title": "داشبورد MarktBit",
+    "engineStatus": "وضعیت موتور",
+    "activeWorkers": "کارگران فعال",
+    "systemLoad": "بار سیستم",
+    "apiStatus": "وضعیت API صرافی و بازار",
+    "startScan": "شروع اسکن",
+    "stopScan": "توقف اسکن"
+  }
+}

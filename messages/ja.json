@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "ハイブリッド暗号通貨とグローバル株シグナルダッシュボード",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "settings": "設定",
+    "dashboard": "ダッシュボード",
+    "signals": "シグナル",
+    "performance": "パフォーマンス",
+    "backtest": "Backtest",
+    "search": "検索",
+    "loading": "読み込み中...",
+    "error": "Error",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "confirm": "確認",
+    "back": "戻る",
+    "next": "次へ",
+    "refresh": "更新"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "市場発見",
+    "newListings": "新規上場",
+    "airdropTracker": "エアドロップトラッカー",
+    "settings": "設定"
+  },
+  "nav": {
+    "dashboard": "ダッシュボード",
+    "signals": "シグナル",
+    "performance": "パフォーマンス",
+    "backtest": "Backtest",
+    "settings": "設定",
+    "logs": "システムログ"
+  },
+  "dashboard": {
+    "title": "MarktBitダッシュボード",
+    "engineStatus": "エンジンステータス",
+    "activeWorkers": "アクティブワーカー",
+    "systemLoad": "システム負荷",
+    "apiStatus": "取引所・市場APIステータス",
+    "startScan": "スキャン開始",
+    "stopScan": "スキャン停止"
+  }
+}

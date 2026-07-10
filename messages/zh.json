@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "混合加密货币与全球股票信号仪表板",
+    "login": "登录",
+    "logout": "退出",
+    "settings": "设置",
+    "dashboard": "仪表板",
+    "signals": "信号",
+    "performance": "性能",
+    "backtest": "Backtest",
+    "search": "搜索",
+    "loading": "加载中...",
+    "error": "Error",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "refresh": "刷新"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "市场发现",
+    "newListings": "新上市",
+    "airdropTracker": "空投追踪器",
+    "settings": "设置"
+  },
+  "nav": {
+    "dashboard": "仪表板",
+    "signals": "信号",
+    "performance": "性能",
+    "backtest": "Backtest",
+    "settings": "设置",
+    "logs": "系统日志"
+  },
+  "dashboard": {
+    "title": "MarktBit 仪表板",
+    "engineStatus": "引擎状态",
+    "activeWorkers": "活跃工作者",
+    "systemLoad": "系统负载",
+    "apiStatus": "交易所和市场API状态",
+    "startScan": "开始扫描",
+    "stopScan": "停止扫描"
+  }
+}

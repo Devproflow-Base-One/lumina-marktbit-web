@@ -1,0 +1,53 @@
+{
+  "common": {
+    "title": "MarktBit",
+    "description": "Tableau de Bord Hybride Signaux Crypto & Actions Mondiales",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "settings": "Paramètres",
+    "dashboard": "Tableau de Bord",
+    "signals": "Signaux",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "refresh": "Actualiser"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Découverte du Marché",
+    "newListings": "Nouvelles Cotations",
+    "airdropTracker": "Suivi d'Airdrops",
+    "settings": "Paramètres"
+  },
+  "nav": {
+    "dashboard": "Tableau de Bord",
+    "signals": "Signaux",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "settings": "Paramètres",
+    "logs": "Journaux Système"
+  },
+  "dashboard": {
+    "title": "Tableau de Bord MarktBit",
+    "engineStatus": "État du Moteur",
+    "activeWorkers": "Workers Actifs",
+    "systemLoad": "Charge Système",
+    "apiStatus": "Statut API Exchange & Marché",
+    "startScan": "Démarrer le Scan",
+    "stopScan": "Arrêter le Scan"
+  }
+}

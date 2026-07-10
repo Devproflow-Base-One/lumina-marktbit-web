@@ -1,0 +1,53 @@
+{
+  "common": {
+    "title": "MarktBit",
+    "description": "Dashboard Sinyal Hybrid Crypto & Saham Global",
+    "login": "Masuk",
+    "logout": "Keluar",
+    "settings": "Pengaturan",
+    "dashboard": "Dashboard",
+    "signals": "Sinyal",
+    "performance": "Performa",
+    "backtest": "Backtest",
+    "search": "Cari",
+    "loading": "Memuat...",
+    "error": "Error",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "close": "Tutup",
+    "confirm": "Konfirmasi",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "refresh": "Refresh"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Sinyal",
+    "performance": "Performa",
+    "backtest": "Backtest",
+    "analytics": "Analitik",
+    "marketDiscovery": "Market Discovery",
+    "newListings": "Listing Baru",
+    "airdropTracker": "Tracker Airdrop",
+    "settings": "Pengaturan"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "signals": "Sinyal",
+    "performance": "Performa",
+    "backtest": "Backtest",
+    "settings": "Pengaturan",
+    "logs": "Log Sistem"
+  },
+  "dashboard": {
+    "title": "MarktBit Dashboard",
+    "engineStatus": "Status Engine",
+    "activeWorkers": "Worker Aktif",
+    "systemLoad": "Beban Sistem",
+    "apiStatus": "Status API Exchange & Market",
+    "startScan": "Mulai Scan",
+    "stopScan": "Stop Scan"
+  }
+}

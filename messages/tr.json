@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "Hibrit Kripto ve Küresel Hisse Sinyal Paneli",
+    "login": "Giriş",
+    "logout": "Çıkış",
+    "settings": "Ayarlar",
+    "dashboard": "Panel",
+    "signals": "Sinyaller",
+    "performance": "Performans",
+    "backtest": "Backtest",
+    "search": "Ara",
+    "loading": "Yükleniyor...",
+    "error": "Error",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "back": "Geri",
+    "next": "İleri",
+    "refresh": "Yenile"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Pazar Keşfi",
+    "newListings": "Yeni Listeler",
+    "airdropTracker": "Airdrop Takipçi",
+    "settings": "Ayarlar"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "signals": "Sinyaller",
+    "performance": "Performans",
+    "backtest": "Backtest",
+    "settings": "Ayarlar",
+    "logs": "Sistem Günlükleri"
+  },
+  "dashboard": {
+    "title": "MarktBit Paneli",
+    "engineStatus": "Motor Durumu",
+    "activeWorkers": "Aktif İşçiler",
+    "systemLoad": "Sistem Yükü",
+    "apiStatus": "Borsa ve Pazar API Durumu",
+    "startScan": "Taramayı Başlat",
+    "stopScan": "Taramayı Durdur"
+  }
+}

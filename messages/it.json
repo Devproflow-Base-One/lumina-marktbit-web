@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "Dashboard Ibrida Segnali Crypto & Azioni Globali",
+    "login": "Accedi",
+    "logout": "Esci",
+    "settings": "Impostazioni",
+    "dashboard": "Dashboard",
+    "signals": "Segnali",
+    "performance": "Prestazioni",
+    "backtest": "Backtest",
+    "search": "Cerca",
+    "loading": "Caricamento...",
+    "error": "Error",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "back": "Indietro",
+    "next": "Avanti",
+    "refresh": "Aggiorna"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Scoperta Mercato",
+    "newListings": "Nuove Quotazioni",
+    "airdropTracker": "Tracker Airdrop",
+    "settings": "Impostazioni"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "signals": "Segnali",
+    "performance": "Prestazioni",
+    "backtest": "Backtest",
+    "settings": "Impostazioni",
+    "logs": "Log di Sistema"
+  },
+  "dashboard": {
+    "title": "Dashboard MarktBit",
+    "engineStatus": "Stato Motore",
+    "activeWorkers": "Worker Attivi",
+    "systemLoad": "Carico Sistema",
+    "apiStatus": "Stato API Exchange & Mercato",
+    "startScan": "Avvia Scan",
+    "stopScan": "Ferma Scan"
+  }
+}

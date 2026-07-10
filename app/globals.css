@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Design Token Variables - Primary Colors (Yellow — Crypto Gold) */
+    --color-primary-50: #fefce8;
+    --color-primary-100: #fef9c3;
+    --color-primary-200: #fef08a;
+    --color-primary-300: #fde047;
+    --color-primary-400: #facc15;
+    --color-primary-500: #eab308;
+    --color-primary-600: #ca8a04;
+    --color-primary-700: #a16207;
+    --color-primary-800: #854d0e;
+    --color-primary-900: #713f12;
+    --color-primary-950: #422006;
+
+    /* Design Token Variables - Neutral Colors */
+    --color-neutral-50: #fafafa;
+    --color-neutral-100: #f5f5f5;
+    --color-neutral-200: #e5e5e5;
+    --color-neutral-300: #d4d4d4;
+    --color-neutral-400: #a3a3a3;
+    --color-neutral-500: #737373;
+    --color-neutral-600: #525252;
+    --color-neutral-700: #404040;
+    --color-neutral-800: #262626;
+    --color-neutral-900: #171717;
+    --color-neutral-950: #0a0a0a;
+
+    /* Design Token Variables - Semantic Colors */
+    --color-semantic-success: #22c55e;
+    --color-semantic-warning: #f59e0b;
+    --color-semantic-error: #ef4444;
+    --color-semantic-info: #3b82f6;
+
+    /* Design Token Variables - Background Colors */
+    --color-background-primary: #000000;
+    --color-background-secondary: #0a0a0a;
+    --color-background-tertiary: #171717;
+    --color-background-card: #0a0a0a;
+    --color-background-card-hover: #171717;
+    --color-background-border: #27272a;
+    --color-background-input: #18181b;
+
+    /* Design Token Variables - Text Colors */
+    --color-text-primary: #fafafa;
+    --color-text-secondary: #a3a3a3;
+    --color-text-tertiary: #737373;
+    --color-text-muted: #525252;
+    --color-text-inverse: #000000;
+
+    /* Default CSS Variables - Will be overridden by branding config */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 47 95% 53%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 47 95% 53%;
+    --radius: 0.5rem;
+
+    /* White-Label Branding Variables - MarktBit Yellow Theme */
+    --brand-primary: var(--color-primary-500);
+    --brand-secondary: var(--color-neutral-800);
+    --brand-accent: var(--color-primary-400);
+    --brand-background: var(--color-background-primary);
+    --brand-text: var(--color-text-primary);
+    --app-name: 'LUMINA MARKTBIT';
+    --company-name: 'Lumina Technologies';
+    --tagline: 'Crypto Signal Truth Board — Transparent Performance Dashboard';
+
+    /* Font Families - Matching Auth Page */
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 240 10% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 240 10% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 240 10% 98%;
+    --primary: 47 95% 53%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 240 5% 96%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 240 5% 96%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 47 95% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    font-family: var(--font-sans);
+    font-size: 100%;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-mono);
+    @apply font-bold tracking-widest uppercase;
+  }
+  code, pre {
+    font-family: var(--font-mono);
+  }
+  
+  /* Global font styling for labels and small text */
+  label, .label {
+    font-family: var(--font-mono);
+    @apply uppercase tracking-wider;
+  }
+  
+  /* Button text styling */
+  button {
+    font-family: var(--font-sans);
+  }
+  
+  button[type="submit"], .btn-primary {
+    font-family: var(--font-mono);
+    @apply tracking-wider;
+  }
+}
+
+/* Fix for browser autofill - theme-aware */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px hsl(var(--input)) inset !important;
+  -webkit-text-fill-color: hsl(var(--foreground)) !important;
+  transition: background-color 5000000s ease-in-out 0s !important;
+}
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+input {
+  color-scheme: inherit;
+}
+
+/* Custom animations for pulsing status */
+@keyframes pulse-yellow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(250, 204, 21, 0);
+  }
+}
+
+.pulse-yellow {
+  animation: pulse-yellow 2s infinite;
+}
+
+/* Custom scrollbar - theme-aware */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.6);
+}
+
+/* Accessibility Styles */
+/* Screen reader only class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Focus visible styles for keyboard navigation */
+*:focus-visible {
+  outline: 2px solid #eab308;
+  outline-offset: 2px;
+}
+
+/* Skip focus styles for mouse users */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Mobile Landscape Orientation - Auto Layout */
+@media (max-height: 500px) and (orientation: landscape) {
+  /* Reduce padding on landscape mobile */
+  main {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  /* Compact header on landscape */
+  /* removed header padding !important to allow component-level control */
+
+  /* Reduce spacing in cards */
+  .space-y-4 {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+  }
+
+  /* Make grids more compact */
+  .grid {
+    gap: 0.5rem !important;
+  }
+
+  /* Reduce card padding */
+  .p-4 {
+    padding: 0.5rem !important;
+  }
+
+  .p-6 {
+    padding: 0.75rem !important;
+  }
+
+  /* Sidebar visible on landscape even on mobile */
+  aside.hidden.lg\:block {
+    display: block !important;
+  }
+
+  /* Adjust font sizes for landscape */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.25rem !important;
+  }
+
+  /* Reduce button padding */
+  /* removed button !important overrides to allow component-level control */
+}
+
+/* Tablet Landscape - Optimized for iPad/Android Tab */
+@media (min-height: 500px) and (max-height: 800px) and (orientation: landscape) {
+  /* More spacious padding */
+  main {
+    padding: 1.25rem !important;
+  }
+
+  /* Larger grid gap */
+  .grid {
+    gap: 1.25rem !important;
+  }
+
+  /* Optimize card spacing */
+  .p-4 {
+    padding: 1rem !important;
+  }
+
+  .p-6 {
+    padding: 1.25rem !important;
+  }
+
+  /* Better header spacing */
+  /* removed header padding !important to allow component-level control */
+
+  /* Larger font for better readability */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  /* Wider sidebar on tablet landscape */
+  /* removed aside width auto !important to allow inline styles */
+
+  /* Better button sizing */
+  /* removed button !important overrides to allow component-level control */
+
+  /* Optimize stats cards grid for tablet */
+  .grid.gap-4.sm\:grid-cols-2.lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 1.25rem !important;
+  }
+
+  /* Content grid - show 3 columns on tablet landscape */
+  .grid.gap-4.sm\:grid-cols-2.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 1.25rem !important;
+  }
+
+  /* Scrollbar slightly wider for easier interaction */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Tablet - Auto Landscape Orientation */
+@media (min-width: 600px) and (max-width: 1024px) {
+  /* Force landscape orientation on tablets */
+  html {
+    writing-mode: horizontal-tb;
+  }
+
+  /* Optimize for landscape by default */
+  main {
+    padding: 1.25rem !important;
+  }
+
+  .grid {
+    gap: 1.25rem !important;
+  }
+
+  /* Card padding */
+  .p-4 {
+    padding: 1rem !important;
+  }
+
+  .p-6 {
+    padding: 1.25rem !important;
+  }
+
+  /* Show 3 columns on tablet */
+  .grid.gap-4.sm\:grid-cols-2.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 1.25rem !important;
+  }
+
+  /* Stats cards - 4 columns on tablet */
+  .grid.gap-4.sm\:grid-cols-2.lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 1.25rem !important;
+  }
+
+  /* Scrollbar wider */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Sidebar visible on tablet */
+  aside.hidden {
+    display: block !important;
+  }
+
+  /* Better button sizing */
+  /* removed button !important overrides to allow component-level control */
+}
+
+/* Desktop Landscape - Full layout */
+@media (min-height: 800px) and (orientation: landscape) {
+  /* Standard spacing */
+  main {
+    padding: 1.5rem !important;
+  }
+
+  .grid {
+    gap: 1rem !important;
+  }
+}
+
+/* Reduced motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hide SkipLink */
+a[href*="main-content"], .skip-link {
+  display: none !important;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  * {
+    border: 1px solid currentColor;
+  }
+}
+
+/* Blink animation for lock layer */
+@keyframes blinkSell {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.blink-lock {
+  animation: blinkSell 4s ease-in-out infinite !important;
+}

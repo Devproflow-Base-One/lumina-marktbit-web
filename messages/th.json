@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "แดชบอร์ดสัญญาณคริปโตและหุ้นทั่วโลกแบบไฮบริด",
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "settings": "ตั้งค่า",
+    "dashboard": "แดชบอร์ด",
+    "signals": "สัญญาณ",
+    "performance": "ประสิทธิภาพ",
+    "backtest": "Backtest",
+    "search": "ค้นหา",
+    "loading": "กำลังโหลด...",
+    "error": "Error",
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "close": "ปิด",
+    "confirm": "ยืนยัน",
+    "back": "ย้อนกลับ",
+    "next": "ถัดไป",
+    "refresh": "รีเฟรช"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "ค้นหาตลาด",
+    "newListings": "จดทะเบียนใหม่",
+    "airdropTracker": "ตัวติดตาม Airdrop",
+    "settings": "ตั้งค่า"
+  },
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "signals": "สัญญาณ",
+    "performance": "ประสิทธิภาพ",
+    "backtest": "Backtest",
+    "settings": "ตั้งค่า",
+    "logs": "บันทึกระบบ"
+  },
+  "dashboard": {
+    "title": "แดชบอร์ด MarktBit",
+    "engineStatus": "สถานะเอนจิน",
+    "activeWorkers": "Workers ที่ใช้งาน",
+    "systemLoad": "โหลดระบบ",
+    "apiStatus": "สถานะ API ตลาดและการแลกเปลี่ยน",
+    "startScan": "เริ่มสแกน",
+    "stopScan": "หยุดสแกน"
+  }
+}

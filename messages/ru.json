@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "Гибридная Панель Сигналов Крипто и Глобальных Акций",
+    "login": "Войти",
+    "logout": "Выйти",
+    "settings": "Настройки",
+    "dashboard": "Панель",
+    "signals": "Сигналы",
+    "performance": "Производительность",
+    "backtest": "Backtest",
+    "search": "Поиск",
+    "loading": "Загрузка...",
+    "error": "Error",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Изменить",
+    "close": "Закрыть",
+    "confirm": "Подтвердить",
+    "back": "Назад",
+    "next": "Далее",
+    "refresh": "Обновить"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Обзор Рынка",
+    "newListings": "Новые Листинги",
+    "airdropTracker": "Трекер Airdrop",
+    "settings": "Настройки"
+  },
+  "nav": {
+    "dashboard": "Панель",
+    "signals": "Сигналы",
+    "performance": "Производительность",
+    "backtest": "Backtest",
+    "settings": "Настройки",
+    "logs": "Системные Журналы"
+  },
+  "dashboard": {
+    "title": "Панель MarktBit",
+    "engineStatus": "Статус Движка",
+    "activeWorkers": "Активные Workers",
+    "systemLoad": "Нагрузка Системы",
+    "apiStatus": "Статус API Биржи и Рынка",
+    "startScan": "Начать Скан",
+    "stopScan": "Остановить Скан"
+  }
+}

@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "Bảng Điều Khiển Tín Hiệu Crypto & Cổ Phiếu Toàn Cầu Kết Hợp",
+    "login": "Đăng Nhập",
+    "logout": "Đăng Xuất",
+    "settings": "Cài Đặt",
+    "dashboard": "Bảng Điều Khiển",
+    "signals": "Tín Hiệu",
+    "performance": "Hiệu Suất",
+    "backtest": "Backtest",
+    "search": "Tìm Kiếm",
+    "loading": "Đang tải...",
+    "error": "Error",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "close": "Đóng",
+    "confirm": "Xác Nhận",
+    "back": "Quay Lại",
+    "next": "Tiếp",
+    "refresh": "Làm Mới"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Khám Phá Thị Trường",
+    "newListings": "Niêm Yết Mới",
+    "airdropTracker": "Theo Dõi Airdrop",
+    "settings": "Cài Đặt"
+  },
+  "nav": {
+    "dashboard": "Bảng Điều Khiển",
+    "signals": "Tín Hiệu",
+    "performance": "Hiệu Suất",
+    "backtest": "Backtest",
+    "settings": "Cài Đặt",
+    "logs": "Nhật Ký Hệ Thống"
+  },
+  "dashboard": {
+    "title": "Bảng Điều Khiển MarktBit",
+    "engineStatus": "Trạng Thái Engine",
+    "activeWorkers": "Workers Hoạt Động",
+    "systemLoad": "Tải Hệ Thống",
+    "apiStatus": "Trạng Thái API Sàn & Thị Trường",
+    "startScan": "Bắt Đầu Quét",
+    "stopScan": "Dừng Quét"
+  }
+}

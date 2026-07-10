@@ -1,0 +1,53 @@
+{
+  "common": {
+    "title": "MarktBit",
+    "description": "Hybrid Crypto & Global Stock Signal Dashboard",
+    "login": "Login",
+    "logout": "Logout",
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "refresh": "Refresh"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Market Discovery",
+    "newListings": "New Listings",
+    "airdropTracker": "Airdrop Tracker",
+    "settings": "Settings"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "settings": "Settings",
+    "logs": "System Logs"
+  },
+  "dashboard": {
+    "title": "MarktBit Dashboard",
+    "engineStatus": "Engine Status",
+    "activeWorkers": "Active Workers",
+    "systemLoad": "System Load",
+    "apiStatus": "Exchange & Market API Status",
+    "startScan": "Start Scan",
+    "stopScan": "Stop Scan"
+  }
+}

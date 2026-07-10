@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "Papan Papan Isyarat Krypto & Saham Global Hibrid",
+    "login": "Log Masuk",
+    "logout": "Log Keluar",
+    "settings": "Tetapan",
+    "dashboard": "Papan Papan",
+    "signals": "Isyarat",
+    "performance": "Prestasi",
+    "backtest": "Backtest",
+    "search": "Cari",
+    "loading": "Memuat...",
+    "error": "Error",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Padam",
+    "edit": "Sunting",
+    "close": "Tutup",
+    "confirm": "Sahkan",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "refresh": "Segar Semula"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Penemuan Pasaran",
+    "newListings": "Penyenaraian Baru",
+    "airdropTracker": "Pengesan Airdrop",
+    "settings": "Tetapan"
+  },
+  "nav": {
+    "dashboard": "Papan Papan",
+    "signals": "Isyarat",
+    "performance": "Prestasi",
+    "backtest": "Backtest",
+    "settings": "Tetapan",
+    "logs": "Log Sistem"
+  },
+  "dashboard": {
+    "title": "Papan Papan MarktBit",
+    "engineStatus": "Status Enjin",
+    "activeWorkers": "Pekerja Aktif",
+    "systemLoad": "Beban Sistem",
+    "apiStatus": "Status API Bursa & Pasaran",
+    "startScan": "Mula Imbas",
+    "stopScan": "Henti Imbas"
+  }
+}

@@ -1,0 +1,53 @@
+﻿{
+  "common": {
+    "title": "MarktBit",
+    "description": "Hybrydowy Panel Sygnałów Krypto i Akcji Globalnych",
+    "login": "Zaloguj",
+    "logout": "Wyloguj",
+    "settings": "Ustawienia",
+    "dashboard": "Panel",
+    "signals": "Sygnały",
+    "performance": "Wydajność",
+    "backtest": "Backtest",
+    "search": "Szukaj",
+    "loading": "Ładowanie...",
+    "error": "Error",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "confirm": "Potwierdź",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "refresh": "Odśwież"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Odkrywanie Rynku",
+    "newListings": "Nowe Notowania",
+    "airdropTracker": "Tracker Airdrop",
+    "settings": "Ustawienia"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "signals": "Sygnały",
+    "performance": "Wydajność",
+    "backtest": "Backtest",
+    "settings": "Ustawienia",
+    "logs": "Dzienniki Systemu"
+  },
+  "dashboard": {
+    "title": "Panel MarktBit",
+    "engineStatus": "Stan Silnika",
+    "activeWorkers": "Aktywne Workery",
+    "systemLoad": "Obciążenie Systemu",
+    "apiStatus": "Status API Giełdy i Rynku",
+    "startScan": "Rozpocznij Skan",
+    "stopScan": "Zatrzymaj Skan"
+  }
+}

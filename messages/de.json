@@ -1,0 +1,53 @@
+{
+  "common": {
+    "title": "MarktBit",
+    "description": "Hybrides Krypto & globale Aktien Signal Dashboard",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "settings": "Einstellungen",
+    "dashboard": "Dashboard",
+    "signals": "Signale",
+    "performance": "Leistung",
+    "backtest": "Backtest",
+    "search": "Suchen",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "refresh": "Aktualisieren"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "signals": "Signals",
+    "performance": "Performance",
+    "backtest": "Backtest",
+    "analytics": "Analytics",
+    "marketDiscovery": "Marktentdeckung",
+    "newListings": "Neue Listings",
+    "airdropTracker": "Airdrop Tracker",
+    "settings": "Einstellungen"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "signals": "Signale",
+    "performance": "Leistung",
+    "backtest": "Backtest",
+    "settings": "Einstellungen",
+    "logs": "Systemprotokolle"
+  },
+  "dashboard": {
+    "title": "MarktBit Dashboard",
+    "engineStatus": "Motorstatus",
+    "activeWorkers": "Aktive Workers",
+    "systemLoad": "Systemauslastung",
+    "apiStatus": "Exchange & Markt API Status",
+    "startScan": "Scan Starten",
+    "stopScan": "Scan Stoppen"
+  }
+}
