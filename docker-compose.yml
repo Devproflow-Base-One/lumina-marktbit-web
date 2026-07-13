@@ -34,7 +34,7 @@ services:
     ports:
       - '5432:5432'
     environment:
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
       - POSTGRES_DB=marktbit
     volumes:
       - db_data:/var/lib/postgresql
